@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+    <component name="AutoImportSettings">
+        <option name="autoReloadType" value="SELECTIVE" />
+    </component>
+    <component name="ChangeListManager">
+        <list default="true" id="3b129402-f0f2-4a56-9106-fc1fb2513ab1" name="Changes" comment="" />
+        <option name="SHOW_DIALOG" value="false" />
+        <option name="HIGHLIGHT_CONFLICTS" value="true" />
+        <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+        <option name="LAST_RESOLUTION" value="IGNORE" />
+    </component>
+    <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+        <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+        <execution>
+            <executable path="composer" />
+        </execution>
+    </component>
+    <component name="Git.Settings">
+        <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    </component>
+    <component name="MarkdownSettingsMigration">
+        <option name="stateVersion" value="1" />
+    </component>
+    <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php">
+        <include_path>
+            <path value="$PROJECT_DIR$/prova/vendor/graham-campbell/result-type" />
+            <path value="$PROJECT_DIR$/prova/vendor/composer" />
+            <path value="$PROJECT_DIR$/prova/vendor/vlucas/phpdotenv" />
+            <path value="$PROJECT_DIR$/prova/vendor/phpoption/phpoption" />
+            <path value="$PROJECT_DIR$/prova/vendor/symfony/polyfill-ctype" />
+            <path value="$PROJECT_DIR$/prova/vendor/symfony/polyfill-mbstring" />
+            <path value="$PROJECT_DIR$/prova/vendor/symfony/polyfill-php80" />
+            <path value="$PROJECT_DIR$/vendor/composer" />
+            <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+            <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+            <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+            <path value="$PROJECT_DIR$/vendor/graham-campbell/result-type" />
+            <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+            <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+        </include_path>
+    </component>
+    <component name="ProjectColorInfo">{
+        &quot;associatedIndex&quot;: 4
+        }</component>
+    <component name="ProjectId" id="2Wqoz7LVwnfYQ7DpQOhRcQ7xaY3" />
+    <component name="ProjectViewState">
+        <option name="hideEmptyMiddlePackages" value="true" />
+        <option name="showLibraryContents" value="true" />
+    </component>
+    <component name="PropertiesComponent">{
+        &quot;keyToString&quot;: {
+        &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+        &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+        &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+        &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+        &quot;last_opened_file_path&quot;: &quot;/media/alumne/USB 32GB Marc/SEGUNDO/MP09&quot;,
+        &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+        &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+        &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+        &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+        &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+        &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+        },
+        &quot;keyToStringList&quot;: {
+        &quot;DatabaseDriversLRU&quot;: [
+        &quot;mysql&quot;
+        ]
+        }
+        }</component>
+    <component name="RecentsManager">
+        <key name="MoveFile.RECENT_KEYS">
+            <recent name="$PROJECT_DIR$" />
+            <recent name="$PROJECT_DIR$/vendor" />
+        </key>
+    </component>
+    <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+    <component name="TaskManager">
+        <task active="true" id="Default" summary="Default task">
+            <changelist id="3b129402-f0f2-4a56-9106-fc1fb2513ab1" name="Changes" comment="" />
+            <created>1697469731351</created>
+            <option name="number" value="Default" />
+            <option name="presentableId" value="Default" />
+            <updated>1697469731351</updated>
+            <workItem from="1697469732368" duration="3023000" />
+            <workItem from="1698074265732" duration="1808000" />
+            <workItem from="1698079507227" duration="2241000" />
+            <workItem from="1698683279822" duration="3902000" />
+            <workItem from="1699293087544" duration="1938000" />
+            <workItem from="1699898113602" duration="1434000" />
+            <workItem from="1700496331415" duration="1138000" />
+            <workItem from="1700497822890" duration="521000" />
+            <workItem from="1700498865430" duration="2595000" />
+        </task>
+        <servers />
+    </component>
+    <component name="TypeScriptGeneratedFilesManager">
+        <option name="version" value="3" />
+    </component>
+</project>
