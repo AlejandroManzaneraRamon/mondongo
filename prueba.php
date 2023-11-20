@@ -1,9 +1,3 @@
-<html>
-<body>
-<head>
-    <meta>
-
-
-</head>
-</body>
-</html>
+<?php
+$a = 5;
+echo 'Hello World!';

@@ -1,26 +1,68 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <title>Mi Página Web</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PHP APP</title>
+    <style>
+        header {
+            background: beige;
+            padding: 2em;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-<h1>Bienvenido a Mi Página Web</h1>
-<p>Esta es una página web de ejemplo.</p>
+<header>
+    <h1><?=$greeting;?></h1>
+    <p>Prova xivato = <?=dd($tasks)?></p>
+    <div>
+        <table>
+            <thead>
+            <tr>
+                <th scope="col">
+                    Id
+                </th>
+                <th scope="col">
+                    Task Name
+                </th>
+                <th scope="col">
+                    Description
+                </th>
+                <th scope="col">
+                    Completed
+                </th>
+                <th scope="col">
+                    <span>Edit</span>
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+            <?php foreach ($tasks as $task): ?>
+            <tr>
+                <td>
+                        <?=$task->id;?>
+                </td>
+                <td>
+                        <?=$task->name;?>
+                </td>
+                <td>
+                        <?=$task->description;?>
+                </td>
+                <td>
+                        <?=$task->completed;?>
+                </td>
+                <td>
+                    <a href="#">Edit</a>
+                </td>
+            </tr>
+            <?php endforeach; ?>
+            </tbody>
+        </table>
+    </div>
 
-<h2>Secciones</h2>
-<ul>
-    <li><a href="#seccion1">Sección 1</a></li>
-    <li><a href="#seccion2">Sección 2</a></li>
-</ul>
-
-<h3 id="seccion1">Sección 1</h3>
-<p>Contenido de la Sección 1.</p>
-
-<h3 id="seccion2">Sección 2</h3>
-<p>Contenido de la Sección 2.</p>
-
-<footer>
-    <p>&copy; 2023 Mi Página Web</p>
-</footer>
+</header>
 </body>
 </html>

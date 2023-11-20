@@ -1,0 +1,22 @@
+{
+  "name": "AlejandroManzaneraRamon/GitHub/MP09",
+  "type": "project",
+  "autoload": {
+    "classmap": [
+      "./"
+    ],
+    "files": [
+      "framework/helpers.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "AlejandroManzaneraRamon",
+      "email": "alejandromanzanera@iesebre.com"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "^5.5",
+    "ext-pdo": "*"
+  }
+}
