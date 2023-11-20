@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '746fb04eb5f752c246144e97c8a1c2bb5f5c44a6',
+        'reference' => 'e86609c903c159c5b38676b4efc3ebfd7b9ae67d',
         'name' => 'alejandromanzaneraramon/github',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '746fb04eb5f752c246144e97c8a1c2bb5f5c44a6',
+            'reference' => 'e86609c903c159c5b38676b4efc3ebfd7b9ae67d',
             'dev_requirement' => false,
         ),
         'graham-campbell/result-type' => array(

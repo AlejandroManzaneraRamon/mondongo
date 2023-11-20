@@ -7,9 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Attribute' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
-    'ComposerAutoloaderInit8d4aeabc8ac01907e2e44c280ba4d064' => $vendorDir . '/composer/autoload_real.php',
-    'Composer\\Autoload\\ClassLoader' => $vendorDir . '/composer/ClassLoader.php',
-    'Composer\\Autoload\\ComposerStaticInit8d4aeabc8ac01907e2e44c280ba4d064' => $vendorDir . '/composer/autoload_static.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'Dotenv\\Dotenv' => $vendorDir . '/vlucas/phpdotenv/src/Dotenv.php',
     'Dotenv\\Exception\\ExceptionInterface' => $vendorDir . '/vlucas/phpdotenv/src/Exception/ExceptionInterface.php',
@@ -67,7 +64,7 @@ return array(
     'Symfony\\Polyfill\\Php80\\PhpToken' => $vendorDir . '/symfony/polyfill-php80/PhpToken.php',
     'UnhandledMatchError' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
     'ValueError' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
-    'framework\\App' => $baseDir . '/framework/App.php',
+    'framework\\App' => $baseDir . '/framework/app.php',
     'framework\\Database\\Connection' => $baseDir . '/framework/Database/Connection.php',
     'framework\\Database\\Database' => $baseDir . '/framework/Database/Database.php',
     'framework\\Route' => $baseDir . '/framework/Route.php',
