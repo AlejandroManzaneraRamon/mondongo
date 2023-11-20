@@ -1,5 +1,5 @@
 {
-  "name": "AlejandroManzaneraRamon/GitHub/MP09",
+  "name": "alejandromanzaneraramon/github",
   "type": "project",
   "autoload": {
     "classmap": [
@@ -11,7 +11,7 @@
   },
   "authors": [
     {
-      "name": "AlejandroManzaneraRamon",
+      "name": "alejandromanzaneraramon",
       "email": "alejandromanzanera@iesebre.com"
     }
   ],
