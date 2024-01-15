@@ -4,12 +4,12 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit05342930c612b1032cb00cf4a29d6a75
+class ComposerStaticInit3d50712bc95ca9c9cd4ad2585f2b12cc
 {
     public static $files = array (
-        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
-        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         'b7e77346063b16e2f4b123aa0c2a1e85' => __DIR__ . '/../..' . '/framework/helpers.php',
     );
 
@@ -63,9 +63,6 @@ class ComposerStaticInit05342930c612b1032cb00cf4a29d6a75
 
     public static $classMap = array (
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
-        'ComposerAutoloaderInit05342930c612b1032cb00cf4a29d6a75' => __DIR__ . '/..' . '/composer/autoload_real.php',
-        'Composer\\Autoload\\ClassLoader' => __DIR__ . '/..' . '/composer/ClassLoader.php',
-        'Composer\\Autoload\\ComposerStaticInit05342930c612b1032cb00cf4a29d6a75' => __DIR__ . '/..' . '/composer/autoload_static.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Dotenv\\Dotenv' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Dotenv.php',
         'Dotenv\\Exception\\ExceptionInterface' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Exception/ExceptionInterface.php',
@@ -132,9 +129,9 @@ class ComposerStaticInit05342930c612b1032cb00cf4a29d6a75
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit05342930c612b1032cb00cf4a29d6a75::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit05342930c612b1032cb00cf4a29d6a75::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit05342930c612b1032cb00cf4a29d6a75::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit3d50712bc95ca9c9cd4ad2585f2b12cc::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit3d50712bc95ca9c9cd4ad2585f2b12cc::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit3d50712bc95ca9c9cd4ad2585f2b12cc::$classMap;
 
         }, null, ClassLoader::class);
     }

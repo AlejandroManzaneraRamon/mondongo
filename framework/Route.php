@@ -22,7 +22,7 @@ class Route
     {
 
         if (!array_key_exists($uri,$this->routes)){
-            require '../resources/views/errors/404.php';
+            require '../resources/views/error/404.php';
             return $this;
         };
         if (!file_exists($this->routes[$uri])){
